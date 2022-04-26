@@ -1,0 +1,258 @@
+
+.container-fluid{
+    padding: 0;
+}
+
+.navbar{
+    background-color: rgb(85, 85, 85);
+    margin:0px;
+    padding:0;
+    width: 100%;
+    
+}
+
+.navbar-toggler{
+    color: #fff;
+    font-family:'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 1px 1px #000;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: 'Arial Narrow', Arial, Helvetica, sans-serif;
+}
+
+.action{
+    background-color: #1f66a5;
+    padding: 5px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    list-style-type: none;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.action-items{
+    align-items: flex-end;
+    color: #fff;
+    text-decoration: none;
+    font-family:'Arial Narrow', Arial, sans-serif;
+    margin: 0 15px;
+}
+
+.action-links{
+    color: white;
+    text-decoration: none;
+    font-size:large;
+    font-weight: bold;
+}
+
+.navbar-brand{
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.navbar-toggler-icon{
+    filter: brightness(0) invert(2);
+}
+
+.county{
+    display: flex;
+    align-items: center;
+}
+
+.state{
+    line-height: 23px;
+    text-align: center;
+    font-family: Oswald, sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-shadow: 2px 1px 1px #000;
+    color:#338ede;
+}
+.nc{
+    font-weight: 200;
+    font-size: .95em;
+    color: #fff;
+}
+
+.logo{
+    width:75px;
+    margin-right: 15px;
+}
+
+.searchbar{
+    position: absolute;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+}
+.form-control{
+    width: 20%;
+    height: 30px;
+    border: solid 1px #1f66a5;
+    text-overflow: ellipsis;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    background-color: #338ede;
+    height: 30px;
+    color: #fff;
+    box-shadow: inset -1px 1px 5px #1d609b;
+    border: none;
+}
+
+
+.nav-secondary{
+    background-color: #dddada;
+    height: fit-content;
+}
+
+.nav-secondary i{
+    color: #1d609b;
+}
+.nav-secondary h6{
+    color: #1d609b;
+    font-family: Oswald, sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    
+}
+
+.nav-secondary i:hover, .nav-secondary h6:hover{
+    color: #fff;
+}
+
+.nav-item{
+    padding-left: 5px;
+}
+
+.secondary-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+.nav-secondary i{
+    font-size: 40px;
+}
+
+.hero img{
+    height: 300px;
+}
+
+
+#footer{
+    background-color: rgb(85, 85, 85);
+    width: 100%;
+    height: 25vh
+}
+
+#news{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(85, 85, 85);
+}
+
+.card{
+    width: 18rem;
+    border: solid 2px #1d609b;
+}
+
+.news-article{
+    display: flex;
+    justify-content: center;
+}
+
+#footer{
+    height: fit-content;
+}
+
+#footer h5{
+    color: #fff;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    text-decoration: underline;
+    text-decoration-color: #1d609b;
+}
+
+#contact p{
+    color: #fff;
+    font-size: 1.10em;
+}
+
+#quicklinks ul{
+    list-style-type: none;
+}
+
+#quicklinks li{
+    border-bottom: solid 2px #1d609b;
+    font-size: 14px;
+    width: fit-content
+    
+}
+
+#quicklinks li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+#content h5{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 800;
+    background-color: #1d609b;
+    padding: 10px;
+    font-size: 2em;
+    color: #fff;
+}
+
+.content-det{
+    text-align: center;
+    border-bottom: solid 2px #dddada;
+    color: #1d609b;
+}
+
+
+.content-det h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    background-color: rgb(85, 85, 85);
+    color: #fff;
+    padding: 8px;
+    
+}
+
+.content-det h4, .content-det h5{
+    font-family: 'Arial Narrow', Arial, Helvetica, sans-serif;
+}
+
+.content-det img{
+    height: 300px;
+    width: 400px;
+}
+
+.accordion-body ul{
+    list-style-type: none;
+    color: #000;
+}
+
+.form{
+    padding: 20px;
+}
+
+
+
